@@ -7,7 +7,7 @@ body {
 }
 
 nav div {
-  border-top: 1px solid rgb(83, 79, 79);
+  border-top: 1px solid rgb(83 79 79);
   padding: 16px;
 }
 
@@ -17,6 +17,7 @@ main {
 
 nav div a {
   text-decoration: none;
+  
   /* position: fixed; */
 }
 
@@ -31,7 +32,7 @@ nav div a:hover,
 nav div a:link,
 nav div a:visited,
 nav div a:active {
-  color: rgb(83, 79, 79);
+  color: rgb(83 79 79);
 }
 
 h1,
@@ -40,8 +41,8 @@ h2 {
 }
 
 pre {
-  font-family: 'Courier New', Courier, monospace;
-  background-color: rgba(219, 219, 219, 50%);
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgba(219 219 219 / 50%);
   padding: 17px;
   border-radius: 5px;
   font-size: 13px;
