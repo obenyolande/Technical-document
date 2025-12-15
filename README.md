@@ -9,8 +9,7 @@ This project shows how HTML script that prints a system information and that use
 ### Preview
 [Technical document](Asset/Image/tech-doc.png)
 
--Deployment link
-https://obenyolande.github.io/Technical-document/
+-[Deployment link](https://obenyolande.github.io/Technical-document/)
 
 ```bash
 git clone
