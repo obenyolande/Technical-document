@@ -19,11 +19,11 @@ cd to directory
 cd system-Info-Dashboard
 To get a copy up and running follow these simple steps.
 clone project
-Clone this repository using your terminal or command line with."https://github.com/obenyolande/Technical-document.git"
+Clone this repository using your terminal or command line with:"https://github.com/obenyolande/Technical-document.git"
 Change to the project directory by entering: cd Technical-document in the terminal.
 ```
 - Command-line steps
- git clone  ""https://github.com/obenyolande/Technical-document.git
+ git clone:"https://github.com/obenyolande/Technical-document.git"
  "cd Technical-document"
 "git switch feature/game(to switch to the feature branch)"
 -Test
