@@ -21,7 +21,6 @@ nav div a {
 
 nav {
   border-right: 2px solid gray;
-  position: fixed;
   width: 20%;
   min-height: 100vh;
   position: fixed;
