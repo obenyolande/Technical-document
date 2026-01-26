@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.5">
     <title>Js Documentation</title>
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -27,8 +27,8 @@
         <div><a href="reference">Reference</a><br></div>
 
     </nav>
-    <p> </p>
-    <main class="text area">
+    <p class ="text-p"> </p>
+    <main class="text-area">
         <section id="intro">
             <h1>Introduction</h1>
             <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight
@@ -96,7 +96,10 @@
             <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript
                 code:
             </p>
-            <pre><code>function greetMe(yourName) { alert("Hello " + yourName); } greetMe("World");</code></pre>
+            <pre>
+                function greetMe(yourName) { alert("Hello " + yourName); } 
+                greetMe("World");
+            </pre>
             <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
         </section>
         <section id="variables">
@@ -173,13 +176,17 @@
             <p>You cannot declare a constant with the same name as a function or variable in the same scope. For
                 example:
             </p>
-            <pre>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS 
-WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
-//statements }</pre>
+            <pre>
+                // THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS 
+                 WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
+                //statements }
+            </pre>
             <p>However, object attributes are not protected, so the following statement is executed without problems.
             </p>
-            <pre>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
-"otherValue";</pre>
+            <pre>
+                const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
+                "otherValue";
+            </pre>
         </section>
         <section id="data">
             <h2>Data types</h2>
@@ -213,13 +220,15 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
                 follows:
             </p>
             <pre>if (condition_1) { statement_1; } else if (condition_2) {
-statement_2; } else if (condition_n) { statement_n; } else {
-statement_last; }</pre>
+                    statement_2; } else if (condition_n) { statement_n; } else {
+                    statement_last; }
+            </pre>
             <pre>In the case of multiple conditions only the first logical condition which evaluates to true will be executed. To execute multiple statements, group them within a block statement ({ ... }) . In general, it's good practice to always use block statements, especially when nesting if statements:</pre>
             <pre>if (condition) {statement_1_runs_if_condition_is_true;
-statement_2_runs_if_condition_is_true;} else {
-statement_3_runs_if_condition_is_false;
-statement_4_runs_if_condition_is_false;}</pre>
+                statement_2_runs_if_condition_is_true;} else {
+                statement_3_runs_if_condition_is_false;
+                statement_4_runs_if_condition_is_false;}
+            </pre>
             <p>It is advisable to not use simple assignments in a conditional expression, because the assignment can be
                 confused with equality when glancing over the code. For example, do not use the following code:</p>
             <pre>if (x = y) { /* statements here */ }</pre>
