@@ -47,6 +47,7 @@ pre {
   max-width: 100%;
   overflow-x: auto;
   white-space: pre-wrap;
+  padding: 8px;
 }
 
 @media screen and (max-width: 767px) {
