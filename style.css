@@ -26,7 +26,6 @@ nav {
   position: fixed;
 }
 
-
 nav div a:hover,
 nav div a:link,
 nav div a:visited,
@@ -62,7 +61,8 @@ pre {
   nav {
     position: fixed;
     width: 30%;
-    height: 1vh;display: block;
+    height: 1vh;
+    display: block;
     left: 0;
   }
 
