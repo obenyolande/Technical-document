@@ -5,7 +5,11 @@ This project shows how HTML script that prints a system information and that use
 ### Installation Requirements
 -download the file
 -cd to the directory where the program is found
--run the program
+-run the programit
+### Preview
+[Technical document](Asset/Image/tech-doc.png)
+
+-[Deployment link](https://obenyolande.github.io/Technical-document/)
 
 ```bash
 git clone
@@ -14,11 +18,11 @@ cd to directory
 cd system-Info-Dashboard
 To get a copy up and running follow these simple steps.
 clone project
-Clone this repository using your terminal or command line with. "https://github.com/obenyolande/Survey-form.git"
+Clone this repository using your terminal or command line with:"https://github.com/obenyolande/Technical-document.git"
 Change to the project directory by entering: cd Technical-document in the terminal.
 ```
 - Command-line steps
- git clone  "https://github.com/obenyolande/Survey-form.git"
+ git clone:"https://github.com/obenyolande/Technical-document.git"
  "cd Technical-document"
 "git switch feature/game(to switch to the feature branch)"
 -Test
