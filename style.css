@@ -26,6 +26,7 @@ nav {
   position: fixed;
 }
 
+
 nav div a:hover,
 nav div a:link,
 nav div a:visited,
@@ -51,14 +52,17 @@ pre {
 @media screen and (max-width: 767px) {
   body {
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 100%;
+    margin: 2px;
+    margin-left: 30%;
     font-size: 14px;
   }
 
   nav {
-    position: static;
-    width: 100%;
-    height: auto;
+    position: fixed;
+    width: 30%;
+    height: 1vh;display: block;
+    left: 0;
   }
 
   .text-p {

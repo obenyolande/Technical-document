@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, maximum-scale=1.5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Js Documentation</title>
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -23,13 +23,13 @@
         <div><a href="#data types">Data types</a><br></div>
         <div><a href="#if...else statement">if...else statement</a><br></div>
         <div><a href="#while statement">While statement</a><br></div>
-        <div><a href="#function declarations">Function declaration</a><br></div>
-        <div><a href="reference">Reference</a><br></div>
+        <div><a href="#function-declarations">Function declaration</a><br></div>
+        <div><a href="#reference">Reference</a><br></div>
 
     </nav>
     <p class ="text-p"> </p>
     <main class="text-area">
-        <section id="intro">
+        <section id="introduction">
             <h1>Introduction</h1>
             <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight
                 language.
@@ -56,7 +56,7 @@
                     a server.</li>
             </ul>
         </section>
-        <section id="knowledge">
+        <section id="what you should already know">
             <h2>What you should already know</h2>
             <p>This guide assumes you have the following basic background:</p>
             <ul>
@@ -67,7 +67,7 @@
                     about JavaScript.</li>
             </ul>
         </section>
-        <section id="language">
+        <section id="javascript and java">
             <h2>JavaScript and java</h2>
             <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript
                 language resembles Java but does not have Java's static typing and strong type checking. JavaScript
@@ -91,7 +91,7 @@
                 not have to implement interfaces. Variables, parameters, and function return types are not explicitly
                 typed.</p>
         </section>
-        <section id="hello">
+        <section id="hello world">
             <h2>Hello world</h2>
             <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript
                 code:
@@ -116,7 +116,7 @@
                 sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.
             </p>
         </section>
-        <section id="declaration">
+        <section id="declaring variables">
             <h2>Declaring variables</h2>
             <p>You can declare a variable in three ways:</p>
             <p>With the keyword var. For example,</p>
@@ -130,7 +130,7 @@
             <pre>x = 42.</pre>
             <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
         </section>
-        <section id="scope">
+        <section id="Variable scope">
             <h2>Variable scope</h2>
             <p>When you declare a variable outside of any function, it is called a global variable, because it is
                 available to
@@ -148,7 +148,7 @@
             <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
             <pre>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</pre>
         </section>
-        <section id="global">
+        <section id="global variables">
             <h2>Global Variables</h2>
             <p>Global variables are in fact properties of the global object. In webpages the global object is window, so
                 you
@@ -188,7 +188,7 @@
                 "otherValue";
             </pre>
         </section>
-        <section id="data">
+        <section id="Data types">
             <h2>Data types</h2>
             <p>The latest ECMAScript standard defines seven data types:</p>
             <ul>
@@ -208,7 +208,7 @@
                 objects
                 as named containers for values, and functions as procedures that your application can perform.</p>
         </section>
-        <section id="if">
+        <section id="if...else statement">
             <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause
                 to execute a statement if the condition is false. An if statement looks as follows:</p>
             <pre>if (condition) { statement_1; } else { statement_2; }</pre>
@@ -236,7 +236,7 @@
                 parentheses around the assignment. For example:</p>
             <pre>if ((x = y)) { /* statements here */ }</pre>
         </section>
-        <section id="statement">
+        <section id="While statement">
             <h2>While statement</h2>
             <p>A while statement executes its statements as long as a specified condition evaluates to true. A while
                 statement
@@ -262,7 +262,7 @@
             </ul>
             <p>After completing the third pass, the condition n &lt; 3 is no longer true, so the loop terminates.</p>
         </section>
-        <section id="function">
+        <section id="function-declarations">
             <h2>Function declarations</h2>
             <p>A function definition (also called a function declaration, or function statement) consists of the
                 function
@@ -285,7 +285,7 @@
                 but if the function changes the value of the parameter, this change is not reflected globally or in the
                 calling function.</p>
         </section>
-        <footer id="ref">
+        <footer id="reference">
             <h2>Reference</h2>
             <li>All the document in the page is taken from <a
                     href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a></li>
